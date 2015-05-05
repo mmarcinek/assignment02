@@ -4,6 +4,8 @@ ul {
 
 .octodex {
 	font-family: sans-serif;
+	font-weight: bold;
+	color: #cfcfcf;
 }
 
 .octocat img {
@@ -11,6 +13,10 @@ ul {
 	border: 1px solid #cfcfcf;
 	border-radius: 3px;
 	margin: 10px;
+}
+
+.image-footer {
+	border-bottom: 1px solid #cfcfcf;
 }
 
 .authors img {
@@ -22,6 +28,7 @@ ul {
 .image-number:before{
 	content: "#";
 }
+
 .octocat {
 	float: left;
 	
@@ -35,3 +42,7 @@ ul {
 	float:right;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
