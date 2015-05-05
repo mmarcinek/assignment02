@@ -18,6 +18,7 @@ ul {
 	width: 414px;
 	border: 1px solid #cfcfcf;
 	border-radius: 3px;
+
 	
 }
 
@@ -29,7 +30,11 @@ ul {
 }
 
 div.image-footer {
-
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 13.0px 7.5px 0 7.5px;
+	border-color: #cfcfcf transparent transparent transparent;
 }
 
 .image-number:before{
@@ -37,17 +42,19 @@ div.image-footer {
 }
 
 .image-number {
-	float: left;	
+	float: left;
+	margin-top: 15px;	
 }
 
 div.image-caption {
 	width: 280px;
 	float: right;
+	margin-top: 9px;
 
 }
 	
 ul.authors {
-	padding-left: 0;
+	padding-left: 5px;
 	display: inline-block;
 	vertical-align: middle;
 }	
@@ -56,6 +63,7 @@ ul.authors {
 	width: 25px;
 	border: none;
 	margin: 0;
+
 }
 
 a {
