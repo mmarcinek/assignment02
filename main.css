@@ -1,0 +1,21 @@
+.octocat img {
+	width: 445px;
+}
+
+.authors img {
+	width: 25px;
+	border: none;
+}
+
+.octocat {
+	float: left;
+	border: 1px solid #cfcfcf;
+}
+
+.authors {
+	float: right;	
+}
+
+ul {
+	list-style: none;
+}
