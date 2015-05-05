@@ -1,5 +1,7 @@
 .octocat img {
 	width: 445px;
+	border: 1px solid #cfcfcf;
+	border-radius: 2px;
 }
 
 .authors img {
@@ -9,7 +11,7 @@
 
 .octocat {
 	float: left;
-	border: 1px solid #cfcfcf;
+	
 }
 
 .authors {
@@ -18,4 +20,8 @@
 
 ul {
 	list-style: none;
+}
+
+.image-number:before{
+	content: "#";
 }
