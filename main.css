@@ -1,14 +1,27 @@
+ul {
+	list-style: none;
+}
+
+.octodex {
+	font-family: sans-serif;
+}
+
 .octocat img {
-	width: 445px;
+	width: 400px;
 	border: 1px solid #cfcfcf;
-	border-radius: 2px;
+	border-radius: 3px;
+	margin: 10px;
 }
 
 .authors img {
 	width: 25px;
 	border: none;
+	margin: 0;
 }
 
+.image-number:before{
+	content: "#";
+}
 .octocat {
 	float: left;
 	
@@ -18,10 +31,7 @@
 	float: right;	
 }
 
-ul {
-	list-style: none;
+.image-capture {
+	float:right;
 }
 
-.image-number:before{
-	content: "#";
-}
