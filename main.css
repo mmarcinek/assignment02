@@ -2,8 +2,13 @@ ul {
 	list-style: none;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
 .octodex {
-	font-family: sans-serif;
+	font-family: 'Helvetica', sans-serif;
 	font-weight: bold;
 	color: #cfcfcf;
 }
@@ -29,7 +34,10 @@ ul {
 	height: 50px;
 }
 
-div.image-footer {
+.image-footer:before {
+	content: "";
+	display: block;
+	right: 0;
 	width: 0;
 	height: 0;
 	border-style: solid;
@@ -37,13 +45,13 @@ div.image-footer {
 	border-color: #cfcfcf transparent transparent transparent;
 }
 
-.image-number:before{
-	content: "#";	
-}
-
 .image-number {
 	float: left;
 	margin-top: 15px;	
+}
+
+.image-number:before{
+	content: "#";	
 }
 
 div.image-caption {
@@ -64,11 +72,6 @@ ul.authors {
 	border: none;
 	margin: 0;
 
-}
-
-a {
-	color: black;
-	text-decoration: none;
 }
 
 
