@@ -9,14 +9,16 @@ ul {
 }
 
 .octocat img {
-	width: 400px;
+	width: 414px;
 	border: 1px solid #cfcfcf;
 	border-radius: 3px;
-	margin: 10px;
+	
 }
 
 .image-footer {
 	border-bottom: 1px solid #cfcfcf;
+	margin-bottom: 8px;
+	width: 414px;
 }
 
 .authors img {
@@ -31,15 +33,16 @@ ul {
 
 .octocat {
 	float: left;
+	margin-right: 15px;
 	
 }
 
 .authors {
-	float: right;	
+	
 }
 
 .image-capture {
-	float:right;
+	
 }
 
 a {
