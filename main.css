@@ -42,19 +42,19 @@ div.image-footer {
 
 div.image-caption {
 	width: 180px;
-	height: 20px;
+	margin-right: 5px;
+	float: right
 }
-
-.image-caption {
-	float: right;
-
-}
+	
+ul.authors {
+	padding-left: 0;
+	float: right
+}	
 
 .authors img {
 	width: 25px;
 	border: none;
 	margin: 0;
-	float: right;	
 }
 
 a {
