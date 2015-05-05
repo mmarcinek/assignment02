@@ -8,6 +8,12 @@ ul {
 	color: #cfcfcf;
 }
 
+.octocat {
+	float: left;
+	margin-right: 15px;
+	
+}
+
 .octocat img {
 	width: 414px;
 	border: 1px solid #cfcfcf;
@@ -19,22 +25,23 @@ ul {
 	border-bottom: 1px solid #cfcfcf;
 	margin-bottom: 8px;
 	width: 414px;
+	height: 50px;
+	display: inline;
+}
+
+.image-number:before{
+	content: "#";	
+}
+
+.image-number {
+	float: left;
 }
 
 .authors img {
 	width: 25px;
 	border: none;
 	margin: 0;
-}
-
-.image-number:before{
-	content: "#";
-}
-
-.octocat {
-	float: left;
-	margin-right: 15px;
-	
+	float: right;	
 }
 
 a {
