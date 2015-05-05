@@ -26,7 +26,6 @@ ul {
 	margin-bottom: 8px;
 	width: 414px;
 	height: 50px;
-	display: inline;
 }
 
 .image-number:before{
@@ -35,8 +34,12 @@ ul {
 
 .image-number {
 	float: left;
+	display: inline;
 }
 
+.image-caption {
+	float: right;
+}
 .authors img {
 	width: 25px;
 	border: none;
