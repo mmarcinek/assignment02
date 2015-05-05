@@ -24,7 +24,7 @@ ul {
 .image-footer {
 	border-bottom: 1px solid #cfcfcf;
 	margin-bottom: 8px;
-	width: 418px;
+	width: 414px;
 	height: 50px;
 }
 
@@ -41,14 +41,15 @@ div.image-footer {
 }
 
 div.image-caption {
-	width: 180px;
-	margin-right: 5px;
-	float: right
+	width: 280px;
+	float: right;
+
 }
 	
 ul.authors {
 	padding-left: 0;
-	float: right
+	display: inline-block;
+	vertical-align: middle;
 }	
 
 .authors img {
