@@ -1,3 +1,5 @@
+/*Global style*/
+
 ul {
 	list-style: none;
 }
@@ -8,11 +10,16 @@ a {
 	font-weight: 900;
 }
 
+/*Octocat*/
+
 .octodex {
 	font-family: 'Helvetica', sans-serif;
 	font-weight: bold;
 	color: #C9C9C9;
+	overflow: hidden; /* clears the float */
 }
+
+/*Octocat*/
 
 .octocat {
 	float: left;
@@ -24,9 +31,9 @@ a {
 	width: 414px;
 	border: 1px solid #C9C9C9;
 	border-radius: 3px;
-	
-	
 }
+
+/*.image-footer*/
 
 .image-footer {
 	border-bottom: 1px solid #C9C9C9;
@@ -49,6 +56,7 @@ a {
 	bottom: 44px;
 }
 
+/*.image-number*/
 .image-number {
 	position: absolute;
   	left: 0;
@@ -59,14 +67,18 @@ a {
 	content: "#";	
 }
 
-div.image-caption {
+/*.image-caption*/
+
+.image-caption {
 	position: absolute;
 	right: 0px;
 	bottom: 11px;
 	font-weight: 800;
 	color: #6C6A68;
 }
-	
+
+/*Specific authors*/
+
 ul.authors {
 	padding-left: 2px;
 	display: inline-block;
